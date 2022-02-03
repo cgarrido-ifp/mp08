@@ -1,0 +1,18 @@
+body{
+  background: red;
+  font-size: 1.5rem;
+
+}
+
+@media screen and (width:360px) and (height:592px){
+  body{
+    background: olive;
+    color: white;
+  }
+}
+
+@media screen and (width:672px) and (height:280px){
+  body{
+    background: cyan;
+    }
+}
