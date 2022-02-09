@@ -12,7 +12,7 @@ nav ul li:hover{
   background-color:blue;
 }
 
-@media screen and (min-width:362px)/*and (height:592px)*/ {
+@media screen and (min-width:360px)/*and (height:592px)*/ {
   body{
     background: olive;
     color: white;
