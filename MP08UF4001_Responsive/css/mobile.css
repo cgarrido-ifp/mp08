@@ -37,7 +37,7 @@ nav ul li:hover{
 
 }
 
-@media screen and (max-width:592px) /*and (height:280px)*/{
+@media screen and (max-width:361px) /*and (height:280px)*/{
   body{
     background: black;
     color:yellow;
