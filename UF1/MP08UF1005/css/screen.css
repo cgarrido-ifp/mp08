@@ -1,0 +1,236 @@
+body {
+  background-color: #5d5654;
+  font-family: sans-serif;
+  font-family:'Montserrat';
+  font-size: 8px;
+  margin: 0 auto;
+  text-align: center;
+
+  }
+article{
+  background-image:url(http://crossfitruna.com/wp-content/uploads/2021/05/box_Runa_Covid.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px;
+}
+h2{
+  font-size: 5em;
+  font-family: 'Alfa Slab One', cursive;
+  color: #0091f8;
+  margin: 0 auto;
+  margin-top: 10px;
+  text-align: center;
+  text-shadow: 1px 1px 2px black, 0 0 25px grey, 0 0 5px white;
+  width:0 auto;
+  height:100px;
+}
+li{
+  display: inline-block;
+}
+ul{
+  background-color: white;
+  border-radius: 20px;
+  width: 310px;
+  margin: 0 auto;
+
+}
+h3{
+  color: black;
+  background-color: white;
+  box-shadow: 2px 2px 3px black;
+  width: 300px;
+  height: 0 auto;
+  margin: 0 auto;
+  text-align: center;
+
+}
+h4{
+  color: white;
+  margin: 0 auto;
+  background-color: black;
+  width: 70px;
+  height: 0 auto;
+  text-align: center;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+h5{
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  background-image: url(../img/aimharder.png);
+  background-size: cover;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  }
+.captures{
+    width: 600px;
+    height: 600px;
+    align-items: stretch;
+    }
+img{
+  width: 600px;
+  height: 595px;
+  background-position: center;
+}
+.win{
+  width: 30px;
+  height: 30px;
+  background-image: url(https://cdn-icons-png.flaticon.com/512/732/732076.png);
+  background-size: 100% 100%;
+  float: left;
+  margin:10px;
+}
+.mac{
+  width: 30px;
+  height: 30px;
+  background-image: url(https://cdn-icons-png.flaticon.com/128/0/747.png);
+  background-size: 100% 100%;
+  float: left;
+  margin:10px;
+}
+.lin{
+    width: 30px;
+    height: 30px;
+    background-image: url(https://cdn-icons-png.flaticon.com/128/226/226772.png);
+    background-size: 100% 100%;
+    float: left;
+    margin:10px;
+    display:;
+}
+.web{
+    width: 30px;
+    height: 30px;
+    background-image: url(https://cdn-icons-png.flaticon.com/512/1006/1006771.png);
+    background-size: 100% 100%;
+    float: left;
+    margin:10px;
+}
+.and{
+  width: 30px;
+  height: 30px;
+  background-image: url(https://cdn-icons-png.flaticon.com/128/1077/1077054.png);
+  background-size: 100% 100%;
+  float: left;
+  margin:10px;
+}
+.ios {
+  width: 30px;
+  height: 30px;
+  background-image: url(https://cdn-icons-png.flaticon.com/512/831/831327.png);
+  background-size: 100% 100%;
+  float: left;
+  margin:10px;
+}
+div{
+  width: 400px;
+  height: 600px;
+  background: rgba(93, 86, 84, 0.85);
+  border-radius: 25px;
+  margin: 0 auto;
+  margin: 10px;
+  color: white;
+  font-family: font-family: 'Roboto', sans-serif;
+  font-size: 1.1em;
+  border: 2px solid grey;
+  align-content: center;
+    }
+a{
+  display: inline-block;
+}
+.funcionalitats, .captures, .financament, .companyia, .alternatives, .valoracio {
+  padding-top: 40px 10px 10px 10px;
+  float: left;
+  display: inline-block;
+  text-align: center;
+  justify-content: center;
+  align-items : center;
+  overflow: auto;
+  margin-top: 20px;
+  }
+.financament, .companyia, .alternatives, .valoracio{
+  width: 300px;
+  height: auto;
+  text-align: center;
+}
+.companyia{
+  margin-top: 290px;
+  margin-left: -310px;
+}
+.captures{
+  background-position: center;
+}
+.funcionalitats{
+  width: 400px;
+  height: auto;
+  margin-left: 100px;
+}
+article {
+  float: left;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  border-radius: 3px;
+  font-size: 2em;
+}
+article:last-child{
+  background-color: #5d5654;
+  background-image:url(https://granada.o2cw.es/wp-content/uploads/sites/2/2016/10/padel-profesional-de-competicion.jpg);
+  background-repeat: no-repeat;
+  background-size: cover ;
+  margin:0 auto;
+  }
+h6{
+  font-size: 1.3em;
+  margin: 10px;
+  font-style: bold;
+  color: #0091f8;
+}
+  p{
+  margin: 15px;
+  font-size: 1.1em;
+  align-items: center;
+}
+.avantantges{
+  float: none;
+  background-color: #5d5654;
+  height: auto;
+  width: auto;
+  border: 2px solid #5d5654;
+  margin:0auto;
+}
+.inconvenients{
+  float: none;
+  background-color: #5d5654;
+  height: auto;
+  width: auto;
+  border: 2px solid #5d5654;
+  margin:0 auto;
+}
+article:last-child h5{
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    background-image: url(https://lh3.googleusercontent.com/gEJwI_cr8YFUDA9dHI4hqPFes_v5lJDBbda2Mum4X42qgchrTpaFp-SduBjvKh9iyB_h=s180);
+    background-size:cover;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+article:last-child h2{
+  color:#8fd941;
+  margin-top: 20px;
+  margin: 0 auto;
+}
+article:last-child ul{
+  background-color: white;
+  border-radius: 20px;
+  width: 310px;
+  margin: 0 auto;
+
+  }
+article:last-child h6{
+  color:#8fd941;
+}
+article:last-child .companyia {
+  margin-top: 215px;
+}

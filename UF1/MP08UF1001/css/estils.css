@@ -1,0 +1,158 @@
+
+body{
+  margin: 0;
+  font-family: Helvetica Neue,Arial, Sans-serif;
+  color:#666;
+  font-size: 13px;
+}
+
+div{
+  background-repeat:no-repeat;
+  background-position: 400px 0;
+}
+.blanca{
+  background-color: #fff;
+}
+
+.verda{
+    background-color: #6C3;
+    height:550px;
+}
+
+.fosca{
+  background-color: #333;
+}
+
+.clara{
+  background-color: #EEECEE;
+}
+
+#menu {
+    height:40px;
+    padding: 0 0 0 5px;
+}
+
+#tot {
+    height:641px;
+    background-image: url(../img/allinone.jpg);
+}
+
+#coneix {
+  height: 550px;
+  background-image: url(../img/img-hero-full-list.png);
+}
+
+#facil {
+  height: 550px;
+  background-image: url(../img/mobile-share.png);
+  background-position: 400px 15px;
+}
+#util{
+  height: 500px;
+  background-image: url(../img/curator-short.png);
+}
+
+#descarrega{
+  text-align: center;
+  height: 200px;
+}
+
+#arreu{
+  height:643px;
+  background-image: url(../img/anywhere.png);
+}
+
+#rapid{
+  height: 550px;
+  background-image: url(../img/img-hero-full-list.png);
+}
+
+h1{
+    margin:0px;
+    padding:30px;
+    background-color: ;
+    width: 380px;
+}
+p{
+    background-color: ;
+
+    /* padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px; */
+    /*
+    padding: 0px 30px 0px 30px;*/
+    padding: 0px 30px;
+    margin: 0;
+    font-size: 18px;
+    line-height: 22px;
+    width: 380px;
+    text-indent: 18px;
+    }
+
+ul{
+  padding: 0;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+  text-align: right;
+  }
+
+li{
+  list-style-type:none;
+  background-color: ;
+  display: inline-block;
+  margin:0;
+  padding: 6px;
+  border: 0px solid black;
+  border-radius: ;
+  line-height: 40px;
+  }
+
+li:hover {
+  background-color: #6C3;
+  color: black;
+}
+li:link {
+  color: black;
+}
+li:active {
+  background-color: #6C3;
+  color: white;
+}
+a: visited{
+  color: black;
+}
+
+/*a:link {
+  color: black;
+}
+a:hover {
+  background-color: #6C3;
+}
+a:active {
+  color: black;
+  }
+a:visited {
+  color: black;
+}
+*/
+
+#descarrega img{
+    padding: 30px;
+}
+.torna{
+  height: 100px;
+  width: 100px;
+  background-color:black ;
+  position: fixed;
+  bottom: 100px;
+  right: 100px;
+  border-radius: 50px;
+  font-size:80px;
+  text-align: center;
+  line-height: 120px;
+  color:#6c3;
+  box-shadow: black 10px 10px 30px;
+
+}

@@ -1,0 +1,50 @@
+body{
+  background-image: url(../img/garrido.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cap{
+  position: relativeM
+  top: px;
+  width: 400px;
+  height: 640px;
+  background: pink;
+  opacity: 0.5;
+  margin: 0 auto;
+  border-radius: 300px 300px 450px 450px;
+}
+
+.front{
+ height: 100px;
+}
+
+.celles{
+  position: relative;
+  height: 80px;
+}
+
+.cabell{
+  height: 200px;
+  background-color: brown;
+}
+.blanc{
+  width:40px;
+  height: 50px;
+  border-radius: 50%;
+  background: white;
+  display: inline-block;
+}
+.esquerra .blanc{
+  margin-left:100px;
+
+}
+.dreta .blanc{
+  margin-right:100px;
+}
+.pupila{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: brown;
+}

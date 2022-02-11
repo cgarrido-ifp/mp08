@@ -1,0 +1,62 @@
+.primer{
+  background-color: purple;
+  width: 1200px;
+  height: 200px;
+  font-family: serif;
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+}
+h2{
+  font-size: 3em;
+  font-family: serif;
+}
+
+.segon{
+  float: left;
+  background-color: pink;
+  width: 200px;
+  font-size: 10em;
+  font-family: serif;
+  color: black;
+  margin: 13.33px;
+  text-align: center;
+}
+
+.tercer{
+  float: left;
+  background-color: cyan;
+  width: 720px;
+  font-size: 10em;
+  font-family: serif;
+  color: black;
+  margin: 13.33px;
+    text-align: center;
+
+}
+.quart{
+  float:left;
+  background-color: pink;
+  width: 200px;
+  font-size: 10em;
+  font-family: serif;
+  color: black;
+  margin: 13.33px;
+}
+.contenidor{
+  margin:0 auto;
+  width: 1200px;
+  height: 100px;
+  }
+
+.quint{
+  margin: auto;
+  text-align: center;
+  width: 1200px;
+  height: 120px;
+  background-color: purple;
+  clear:both;
+  font-size: 20px;
+  font-family: fantasy;
+  color: gold;
+}
