@@ -1,0 +1,20 @@
+body{background: red;}
+
+@media screen and (min-width:960px) {
+  body{
+   background: pink;}
+   ul li ul{
+     display: block;
+     width: 8rem;
+     height: 10rem;
+     background: black;
+     border-radius: 10%;
+     float: left;
+     box-shadow: 2 2 2 solid grey;
+   }
+
+  ul li ul{
+    clear: both;
+  }
+
+}
