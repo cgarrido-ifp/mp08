@@ -1,0 +1,123 @@
+body{
+  background-color: #222;
+  font-family: helvetica, sans-serif;
+}
+.fitxa{
+  width: 175px;
+  height: 300px;
+  border-radius: 25px;
+  margin: 10px;
+  float: left;
+  }
+
+h3{
+  color: #CCC;
+  margin:0;
+}
+h4{
+  float:right;
+  margin:0;
+  color: #CCC;
+  font-size:14px;
+}
+h5{
+  float:left;
+  color: #CCC;
+  margin:0;
+  font-size:11px;
+}
+.docusinteresants{
+  margin-top: 40px;
+  color:#FFF;
+  font-size:22px;
+  background-color: #222;
+  float: left;
+
+  }
+a:hover{
+  opacity: 0.5;
+}
+
+.docusvists{
+clear: both;
+  color:#FFF;
+  font-size:22px;
+  background-color: #222;
+  float:left;
+  }
+.pelisinteressants{
+  clear: both;
+    color:#FFF;
+    font-size:22px;
+    background-color: #222;
+    float:left;
+    }
+.pelisvistes{
+    clear: both;
+      color:#FFF;
+      font-size:22px;
+      background-color: #222;
+      float:left;
+      }
+.seriesvistes{
+ clear: both;
+ color:#FFF;
+ font-size:22px;
+ background-color: #222;
+ float:left;
+}
+.seriesseguint{
+ clear: both;
+ color:#FFF;
+ font-size:22px;
+ background-color: #222;
+ float:left;
+}
+#vistes{
+-webkit-filter: grayscale(100%);
+-moz-filter: grayscale(100%);
+filter: grayscale(100%);
+}
+.barra{
+  background-image: url(../img/quasinegre.png);
+  background-repeat: repeat;
+  height: 50px;
+  width:1500px;
+  float:left;
+  position: fixed;
+  z-index: 99999999;
+
+}
+.image{
+  float:left;
+  margin: 5px 20px 5px 20px;
+align-items: center;
+}
+li{
+  text-align: center;
+  float:left;
+  color:#FFF;
+  margin: 5px;
+  margin-top: 0;
+  list-style: none;}
+
+.navegacio{
+  float:left;
+
+}
+.social{
+  float:right;
+  color:white;
+}
+.docus>a:link{
+  color:white;
+}
+.docus>a:hover{
+color:white;
+}
+a:ul:visited{
+  color:white;
+}
+a.navegacio:active{
+  color:white;
+}
