@@ -2,7 +2,8 @@ body{background: white;}
 
 @media screen and (min-width:960px) {
   body{
-   background: #8593B3;
+    background: rgb(133,147,179);
+ background: linear-gradient(0deg, rgba(133,147,179,0.9051995798319328) 0%, rgba(232,222,201,1) 100%);
     }
     h1>span{
       color: white;
@@ -15,25 +16,27 @@ ul{
 }
    ul li ul a{
      display: block;
-     width: 8rem;
-     height: 10rem;
-     background: #00BFA5;
+     width: 70px;
+     height: 70px;
+     background: white;
      border-radius: 10%;
      float: left;
      box-shadow: 2 2 2 solid grey;
      margin: 10px;
      list-style-type: none;
+     text-align: center;
+     background-size: auto;
    }
 
   ul li ul {
     clear: both;
-    font-size: 1rem;
+    font-size: 10px;
     margin: 0 auto;
-    padding: 0;
-    filter: blur(0px);
+        filter: blur(0px);
     list-style:none;
-    width: 100%;
+    width: 20px;
     list-style-type: none;
+
   }
 
   ul li  {
@@ -44,61 +47,128 @@ ul{
     background: #D9D4D9;
     margin:0px;
     font-size: 1rem;
+    top: 9rem;
+    box-shadow: 10px 10px 10px;
+    position: relative;
   }
 
-ul li ul a:hover{
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  filter: grayscale(100%);
-}
-.uf1{
-  padding: 1rem;
-  font-size: 1.5rem;
-  background: #FBC02D;
-}
+  ul li ul a:hover{
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    filter: grayscale(100%);
+
+  }
+  .uf1{
+    padding: 1rem;
+    font-size: 1.5rem;
+    background: #FBC02D;
+    float:left;
+    width:500px;
+    height:250px;
+    border-radius: 20px;
+    background-image: url(img/tintin.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    right: -200px;
+    }
+
+
+
 .uf2{
   padding: 1rem;
   font-size: 1.5rem;
   background:#1A237E;
   color: white;
-}
-.uf3{
-  padding: 1rem;
-  font-size: 1.5rem;
-  background:#00695C;
-  color: white;
-}
-.uf4{
-  padding: 1rem;
-  font-size: 1.5rem;
-  background:#BDBDBD;
-}
-.feedly{
-  background-image: url(img/1.png);
-}
-.floatA{
-  background-image: url(img/2.png);
-}
-.floatB{
-  background-image: url(img/3.png);
-}
-.floatC{
-  background-image: url(img/4.png);
-}
-.watchmen{
-  background-image: url(img/5.png);
-}
-.escacs{
-  background-image: url(img/6.png);
-}
-.apps{
-  background-image: url(img/7.png);
-}
-.retrat{
-  background-image: url(img/8.png);
-}
-.examen{
-  background-image: url(img/9.png);
+  float: left;
+  width: 30rem;
+  height: 50rem;
+  border-radius: 20px;
+  background-image: url(img/cortomaltese.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  margin:10px;
+  position: relative;
+  left: 230px;
+
+  }
+  .uf3{
+    padding: 1rem;
+    font-size: 1.5rem;
+    background:#00695C;
+    color: white;
+    background-image: url(img/asterix.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    width: 50rem;
+    height: 40rem;
+    border-radius: 20px;
+    margin:10px;
+    position: relative;
+    top: -80px;
+    left: 230px;
+  }
+  .uf4{
+    padding: 1rem;
+    font-size: 1.5rem;
+    background:#BDBDBD;
+    background-image: url(img/mortadelo.png);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+    width: 35rem;
+    height: 27rem;
+    border-radius: 20px;
+    margin:10px;
+    float: left;
+    position: relative;
+    left: 240px;
+  }
+  .feedly{
+    background-image: url(img/1.png);
+    background-size: cover;
+      }
+  .floatA{
+    background-image: url(img/2.png);
+    background-size: cover;
+
+  }
+  .floatB{
+    background-image: url(img/3.png);
+    background-size: cover;
+  }
+  .floatC{
+    background-image: url(img/4.png);
+  background-size: cover;  }
+  .watchmen{
+    background-image: url(img/5.png);
+    background-size: cover;
+  }
+  .escacs{
+    background-image: url(img/6.png);
+    background-size: cover;
+  }
+  .apps{
+    background-image: url(img/7.png);
+    background-size: cover;
+  }
+  .retrat{
+    background-image: url(img/8.png);
+    background-size: cover;
+  }
+  .examen{
+    background-image: url(img/9.png);
+    background-size: cover;
+  }
+
+.fondo1{
+  margin: 0 auto;
+  background: blue;
+  position: relative;
+  overflow: hidden;
+  width: 1500px;
 }
 
 }
