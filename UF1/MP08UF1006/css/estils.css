@@ -7,7 +7,7 @@ body{
 
 .cap{
   position: relative;
-  top:300px;
+  top:100px;
   width: 345px;
   height: 580px;
   background: pink;
@@ -83,6 +83,7 @@ body{
   position: relative;
   top:-400px;
   display: inline-block;
+
 }
 .front .arruga1{
   width: 100px;
