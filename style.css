@@ -1,12 +1,14 @@
-body{background: white;}
+body{background: white;
+cursor: url(/img/cursor.png), auto;}
 
 @media screen and (min-width:960px){
   body{
       background: rgb(133,147,179);
    background: -webkit-linear-gradient(bottom, rgba(133,147,179,0.9051995798319328) 0%, rgba(232,222,201,1) 100%);
    background: -o-linear-gradient(bottom, rgba(133,147,179,0.9051995798319328) 0%, rgba(232,222,201,1) 100%);
-   background: linear-gradient(to top, rgba(133,147,179,0.9051995798319328) 0%, rgba(232,222,201,1) 100%);}
-    h1>span{
+   background: linear-gradient(to top, rgba(133,147,179,0.9051995798319328) 0%, rgba(232,222,201,1) 100%);
+   cursor: url(/img/cursor.png), auto;}
+  h1>span{
       color: white;
       font-size: 2.1rem;}
   .fondo1{
@@ -17,9 +19,10 @@ body{background: white;}
         top:-7rem;
         background:;
         height: 75rem;
-      }
-  h1{ font-size: 2rem;
-     width:30rem;
+        }
+  h1{
+      font-size: 2rem;
+      width:30rem;
       background: cadetblue;
       opacity: inherit;
       border-radius: 10px;
@@ -50,7 +53,7 @@ body{background: white;}
       position: relative;
       left: 10px;
       top: 20px;}
-  }
+
   ul li ul {
     font-size: 1px;
     width: 300px;
@@ -80,6 +83,7 @@ body{background: white;}
        -webkit-filter: grayscale(100%);
        -moz-filter: grayscale(100%);
        filter: grayscale(100%);
+       cursor: url(img/cursor.png), auto;
      }
     ul li ul a li{
         list-style:none;
@@ -121,24 +125,24 @@ body{background: white;}
           top:10px;
         }
   ul li ul.act4 a {
-             width: 80px;
-             height: 80px;
-             background: #1A237E;
-             color:white;
-             border-radius: 10%;
-             margin: 8px;
-             list-style-type: none;
-             text-align: center;
-             background-size: auto;
-             font-size: 1px;
-             float:right;
-             position: absolute;
-             left:40px;
-             top:60px;
-           }
+    width: 80px;
+    height: 80px;
+    background: #1A237E;
+    color:white;
+    border-radius: 10%;
+    margin: 8px;
+    list-style-type: none;
+    text-align: center;
+    background-size: auto;
+    font-size: 1px;
+    float:right;
+    position: absolute;
+    left:40px;
+    top:60px;
+    }
 
 
-    .uf1{
+  .uf1{
       padding: 0.5rem;
       font-size: 2rem;
       background: #FBC02D;
@@ -154,10 +158,11 @@ body{background: white;}
       right: 40rem;
 
       }
-      .uf1:hover{
-        width: 47rem;
-        transform-origin: left;
-          }
+  .uf1:hover{
+    width: 47rem;
+    transform-origin: left;
+    cursor: url(../img/cursor.png), auto;
+    }
   .uf2{
     padding: 0.5rem;
     font-size: 2rem;
@@ -177,7 +182,7 @@ body{background: white;}
     }
   .uf2:hover{
       width: 36rem;
-      transform-origin: left;
+      cursor: url(../img/cursor.png), auto;
         }
   .uf3{
       padding: 0.5rem;
@@ -197,7 +202,7 @@ body{background: white;}
     }
   .uf3:hover{
       width: 47rem;
-      transform-origin: left;
+      cursor: url(../img/cursor.png), auto;
         }
   .uf4{
       padding: 0.5rem;
@@ -217,9 +222,8 @@ body{background: white;}
     }
   .uf4:hover{
       width: 36rem;
-      transform-origin: left;
-      background-size: 100%;
-        }
+      cursor: url(../img/cursor.png), auto;
+              }
   .feedly{
       background-image: url(img/1.png);
       background-size: cover;
@@ -249,4 +253,11 @@ body{background: white;}
     background-image: url(img/9.png);
     background-size: cover;}
 }
-}
+
+@media screen and (max-width:960px){
+  body{
+      background: rgb(133,147,179);
+   background: -webkit-linear-gradient(bottom, rgba(133,147,179,0.9051995798319328) 0%, rgba(232,222,201,1) 100%);
+   background: -o-linear-gradient(bottom, rgba(133,147,179,0.9051995798319328) 0%, rgba(232,222,201,1) 100%);
+   background: linear-gradient(to top, rgba(133,147,179,0.9051995798319328) 0%, rgba(232,222,201,1) 100%);}
+ }
