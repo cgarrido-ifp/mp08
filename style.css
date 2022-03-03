@@ -1,274 +1,258 @@
 body{background: white;}
 
-@media screen and (min-width:960px) {
+@media screen and (min-width:960px){
   body{
       background: rgb(133,147,179);
    background: -webkit-linear-gradient(bottom, rgba(133,147,179,0.9051995798319328) 0%, rgba(232,222,201,1) 100%);
    background: -o-linear-gradient(bottom, rgba(133,147,179,0.9051995798319328) 0%, rgba(232,222,201,1) 100%);
-   background: linear-gradient(to top, rgba(133,147,179,0.9051995798319328) 0%, rgba(232,222,201,1) 100%);
-      }
+   background: linear-gradient(to top, rgba(133,147,179,0.9051995798319328) 0%, rgba(232,222,201,1) 100%);}
     h1>span{
       color: white;
-      font-size: 2.1rem;
-    }
- h1{ font-size: 2rem;
-   width:30rem;
-    background: cadetblue;
-    opacity: inherit;
-    border-radius: 10px;
-    position: fixed;
-    z-index: 1000;
-    top:-20px;
-    padding: 0.5rem;
-    left: 40px;
-}
-
-ul{
-  padding:0;
-  font-family: 'Permanent Marker', cursive;
-  margin-top:30px;
-}
-
-ul li {
-  float: left;
-  display: block;
-  list-style-type: none;
-  background: #D9D4D9;
-  margin:0 auto;
-  font-size: 1rem;
-  top: 2rem;
-  -webkit-box-shadow: 17px 6px 36px -4px rgba(0,0,0,0.77);
-  -moz-box-shadow: 17px 6px 36px -4px rgba(0,0,0,0.77);
-  box-shadow: 17px 6px 36px -4px rgba(0,0,0,0.77);
-}
-ul li ul {
-  font-size: 1px;
-  width: 300px;
-  height: 300px;
-  list-style:none;
-  list-style-type: none;
-  float: right;
-  display: inline-block;
-  }
-
-ul li ul a {
-     width: 80px;
-     height: 80px;
-     background: #00695C;
-     color: white;
-     border-radius: 10%;
-     margin: 5px;
-     list-style-type: none;
-     text-align: center;
-     background-size: auto;
-     font-size: 1px;
-     float:left;
-     position: relative;
-     left:30px;
-     background-size: cover;
-
-   }
-   ul li ul a:hover{
-     -webkit-filter: grayscale(100%);
-     -moz-filter: grayscale(100%);
-     filter: grayscale(100%);
-   }
-
-  ul li ul a li{
-      list-style:none;
-      background: none;
-      width: 70px;
-      height: 10px;
-      font-size: 0.7rem;
-        }
-
-
-}
-ul li ul.act2 a {
-     width: 80px;
-     height: 80px;
-     background: white;
-     color:#1A237E;
-     border-radius: 10%;
-     margin: 8px;
-     list-style-type: none;
-     text-align: center;
-     background-size: auto;
-     font-size: 1px;
-     float:left;
-     position: absolute;
-     left:10px;
-     top: 4rem;
-   }
-   ul li ul.act3 a {
-        width: 80px;
-        height: 80px;
-        background: #FBC02D;
-        color:#00695C;
-        border-radius: 10%;
-        margin: 8px;
-        list-style-type: none;
-        text-align: center;
-        background-size: auto;
-        font-size: 1px;
-        float:right;
+      font-size: 2.1rem;}
+  .fondo1{
+        margin: 0 auto;
         position: relative;
-        left:-20px;
-        top:10px;
+        overflow: hidden;
+        width: 90rem;
+        top:-7rem;
+        background:;
+        height: 75rem;
       }
-      ul li ul.act4 a {
-           width: 80px;
-           height: 80px;
-           background: #1A237E;
-           color:white;
-           border-radius: 10%;
-           margin: 8px;
-           list-style-type: none;
-           text-align: center;
-           background-size: auto;
-           font-size: 1px;
-           float:right;
-           position: absolute;
-           left:40px;
-           top:60px;
-         }
-
-
-  .uf1{
-    padding: 0.5rem;
-    font-size: 2rem;
-    background: #FBC02D;
-    width:30rem;
-    height: 20rem;
-    border-radius: 20px;
-    background-image: url(img/uf6.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right;
-    position: absolute;
-    top: 10rem;
-    right: 40rem;
-
-    }
-    .uf1:hover{
-      width: 47rem;
-      transform-origin: left;
-        }
-
-.uf2{
-  padding: 0.5rem;
-  font-size: 2rem;
-  background:#1A237E;
-  color: white;
-  float: left;
-  width: 20rem;
-  height: 40rem;
-  border-radius: 20px;
-  background-image: url(img/uf2.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: left;
-  position: absolute;
-  left: 51rem;
-  top: 10rem;
+  h1{ font-size: 2rem;
+     width:30rem;
+      background: cadetblue;
+      opacity: inherit;
+      border-radius: 10px;
+      position: fixed;
+      z-index: 1000;
+      top:-20px;
+      padding: 0.5rem;
+      left: 40px;}
+  ul{
+    padding:0;
+    font-family: 'Permanent Marker', cursive;
+    margin-top:30px;
   }
-  .uf2:hover{
-    width: 36rem;
-    transform-origin: left;
+  ul li {
+    float: left;
+    display: block;
+    list-style-type: none;
+    background: #D9D4D9;
+    margin:0 auto;
+    font-size: 1rem;
+    top: 2rem;
+    -webkit-box-shadow: 17px 6px 36px -4px rgba(0,0,0,0.77);
+    -moz-box-shadow: 17px 6px 36px -4px rgba(0,0,0,0.77);
+    box-shadow: 17px 6px 36px -4px rgba(0,0,0,0.77);
+  }
+  .uf2>ul>a{
+      float:left;
+      position: relative;
+      left: 10px;
+      top: 20px;}
+
+
+  }
+  ul li ul {
+    font-size: 1px;
+    width: 300px;
+    height: 300px;
+    list-style:none;
+    list-style-type: none;
+    float: right;
+    display: inline-block;
+    }
+  ul li ul a {
+       width: 80px;
+       height: 80px;
+       background: #00695C;
+       color: white;
+       border-radius: 10%;
+       margin: 5px;
+       list-style-type: none;
+       text-align: center;
+       background-size: auto;
+       font-size: 1px;
+       float:left;
+       position: relative;
+       left:30px;
+       background-size: cover;
+
+     }
+     ul li ul a:hover{
+       -webkit-filter: grayscale(100%);
+       -moz-filter: grayscale(100%);
+       filter: grayscale(100%);
+     }
+    ul li ul a li{
+        list-style:none;
+        background: none;
+        width: 70px;
+        height: 10px;
+        font-size: 0.7rem;
+          }
+
+
+  }
+  ul li ul.act2 a {
+       width: 80px;
+       height: 80px;
+       background: white;
+       color:#1A237E;
+       border-radius: 10%;
+       margin: 8px;
+       list-style-type: none;
+       text-align: center;
+       background-size: auto;
+       font-size: 1px;
+       float:left;
+       position: absolute;
+       left:10px;
+       top: 4rem;
+     }
+  ul li ul.act3 a {
+          width: 80px;
+          height: 80px;
+          background: #FBC02D;
+          color:#00695C;
+          border-radius: 10%;
+          margin: 8px;
+          list-style-type: none;
+          text-align: center;
+          background-size: auto;
+          font-size: 1px;
+          float:right;
+          position: relative;
+          left:-20px;
+          top:10px;
+        }
+  ul li ul.act4 a {
+             width: 80px;
+             height: 80px;
+             background: #1A237E;
+             color:white;
+             border-radius: 10%;
+             margin: 8px;
+             list-style-type: none;
+             text-align: center;
+             background-size: auto;
+             font-size: 1px;
+             float:right;
+             position: absolute;
+             left:40px;
+             top:60px;
+           }
+
+
+    .uf1{
+      padding: 0.5rem;
+      font-size: 2rem;
+      background: #FBC02D;
+      width:30rem;
+      height: 20rem;
+      border-radius: 20px;
+      background-image: url(img/uf6.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: right;
+      position: absolute;
+      top: 10rem;
+      right: 40rem;
+
       }
-  .uf3{
+      .uf1:hover{
+        width: 47rem;
+        transform-origin: left;
+          }
+  .uf2{
     padding: 0.5rem;
     font-size: 2rem;
-    background:#00695C;
+    background:#1A237E;
     color: white;
-    background-image: url(img/uf3.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right;
-    width: 30rem;
+    float: left;
+    width: 20rem;
     height: 40rem;
     border-radius: 20px;
-    position: absolute;
-    top: 32rem;
-    right: 40rem;
-  }
-  .uf3:hover{
-    width: 47rem;
-    transform-origin: left;
-      }
-  .uf4{
-    padding: 0.5rem;
-    font-size: 2rem;
-    background:white;
-    background-image: url(img/uf4.png);
+    background-image: url(img/uf2.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
-    width: 20rem;
-    height: 20rem;
-    border-radius: 20px;
-    margin:10px;
     position: absolute;
-    left: 50rem;
-    top: 51rem;
-  }
+    left: 51rem;
+    top: 10rem;
+    }
+  .uf2:hover{
+      width: 36rem;
+      transform-origin: left;
+        }
+  .uf3{
+      padding: 0.5rem;
+      font-size: 2rem;
+      background:#00695C;
+      color: white;
+      background-image: url(img/uf3.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: right;
+      width: 30rem;
+      height: 40rem;
+      border-radius: 20px;
+      position: absolute;
+      top: 32rem;
+      right: 40rem;
+    }
+  .uf3:hover{
+      width: 47rem;
+      transform-origin: left;
+        }
+  .uf4{
+      padding: 0.5rem;
+      font-size: 2rem;
+      background:white;
+      background-image: url(img/uf4.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: left;
+      width: 20rem;
+      height: 20rem;
+      border-radius: 20px;
+      margin:10px;
+      position: absolute;
+      left: 50rem;
+      top: 51rem;
+    }
   .uf4:hover{
-    width: 36rem;
-    transform-origin: left;
-    background-size: 100%;
-      }
+      width: 36rem;
+      transform-origin: left;
+      background-size: 100%;
+        }
   .feedly{
-    background-image: url(img/1.png);
-    background-size: cover;
-      }
+      background-image: url(img/1.png);
+      background-size: cover;
+        }
   .floatA{
-    background-image: url(img/2.png);
-    background-size: cover;
-
-  }
+      background-image: url(img/2.png);
+      background-size: cover;}
   .floatB{
-    background-image: url(img/3.png);
-    background-size: cover;
-  }
+      background-image: url(img/3.png);
+      background-size: cover;}
   .floatC{
-    background-image: url(img/4.png);
-  background-size: cover;  }
+      background-image: url(img/4.png);
+    background-size: cover;  }
   .watchmen{
-    background-image: url(img/5.png);
-    background-size: cover;
-  }
+      background-image: url(img/5.png);
+      background-size: cover;}
   .escacs{
-    background-image: url(img/6.png);
-    background-size: cover;
-  }
+      background-image: url(img/6.png);
+      background-size: cover;}
   .apps{
-    background-image: url(img/7.png);
-    background-size: cover;
-  }
+      background-image: url(img/7.png);
+      background-size: cover;}
   .retrat{
-    background-image: url(img/8.png);
-    background-size: cover;
-  }
+      background-image: url(img/8.png);
+      background-size: cover;}
   .examen{
     background-image: url(img/9.png);
-    background-size: cover;
-  }
-.uf2>ul>a{
-  float:left;
-  position: relative;
-  left: 10px;
-  top: 20px;
+    background-size: cover;}
 }
-
-
-.fondo1{
-  margin: 0 auto;
-  position: relative;
-  overflow: hidden;
-  width: 90rem;
-  top:-7rem;
-  background:;
-  height: 75rem;
-}
-
 }
