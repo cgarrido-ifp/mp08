@@ -95,12 +95,5 @@ nav ul li:hover{
         position: absolute;
         }
 
-      b{
-         display:block;
-         width:2rem;
-         height:0.5rem;
-         background: blue;
-         margin: 0.3rem;
-          border-radius:1rem;
-       }
+      
 }
