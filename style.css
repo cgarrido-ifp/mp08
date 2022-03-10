@@ -255,9 +255,27 @@ cursor: url(/img/cursor.png), auto;}
 }
 
 @media screen and (max-width:960px){
+  h1{
+    background: rgb(133,147,179);
+    width:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    height: 3rem;
+    text-align: center;
+    }
+    ul{font-family: 'Permanent Marker', cursive;}
+  h1>span{
+      color: white;
+      font-size: 2.1rem;
+
+}
   body{
       background: rgb(133,147,179);
-   background: -webkit-linear-gradient(bottom, rgba(133,147,179,0.9051995798319328) 0%, rgba(232,222,201,1) 100%);
-   background: -o-linear-gradient(bottom, rgba(133,147,179,0.9051995798319328) 0%, rgba(232,222,201,1) 100%);
-   background: linear-gradient(to top, rgba(133,147,179,0.9051995798319328) 0%, rgba(232,222,201,1) 100%);}
+     background: -webkit-linear-gradient(bottom, rgba(133,147,179,0.9051995798319328) 0%, rgba(232,222,201,1) 100%);
+     background: -o-linear-gradient(bottom, rgba(133,147,179,0.9051995798319328) 0%, rgba(232,222,201,1) 100%);
+     background: linear-gradient(to top, rgba(133,147,179,0.9051995798319328) 0%, rgba(232,222,201,1) 100%);
+   border-radius:0.5rem;}
+
+
  }
