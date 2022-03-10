@@ -224,6 +224,10 @@ cursor: url(/img/cursor.png), auto;}
       width: 36rem;
       cursor: url(../img/cursor.png), auto;
               }
+  .responsive{
+    background-image: url(img/1.png);
+    background-size: cover;
+    }
   .feedly{
       background-image: url(img/1.png);
       background-size: cover;
