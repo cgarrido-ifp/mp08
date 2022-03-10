@@ -56,6 +56,57 @@ nav ul li:hover{
     background: black;
     color:yellow;
     }
+    input[type=checkbox]{
+    visibility: hidden;
+  }
+  nav>div{
+    position: fixed;
+  }
+  #alternador{
+   width: 2.5rem;
+   height: 3rem;
+   background: none;
+   position: absolute;
+   border-radius: 0.5rem;
+   top: .5rem;
+   left: .5rem;
+  }
+  #alternador label{
+    width: 2.5rem;
+    height:3rem;
+    background: none;
+    position: absolute;
+    top:0;
+    left:0;
+    border-radius: 0.5rem;
+    transition: all .5s ease;
+    cursor: pointer;
+    opacity:1;
+  }
+
+  .desplega{
+    position:absolute;
+    opacity:1;
+    background: ;
+    left: -20rem;
+    transition: all .5s ease;
+  }
+  #alternador input[type=checkbox]:checked+label{
+    opacity: 1;
+
+  }
+  #alternador input[type=checkbox]:checked+label~.desplega{
+
+    left: 0;
+  }
+  b{
+ display:block;
+ width:2rem;
+ height:0.5rem;
+ background: yellow;
+ margin: 0.3rem;
+  border-radius:1rem;
+}
     p:after{
       width:6.25rem;
       height: 6.25rem;
@@ -95,5 +146,5 @@ nav ul li:hover{
         position: absolute;
         }
 
-      
+
 }
