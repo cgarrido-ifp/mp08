@@ -61,9 +61,7 @@ nav ul li:hover{
     input[type=checkbox]{
     visibility: hidden;
   }
-  nav>div{
-    position: fixed;
-  }
+
   #alternador{
    width: 2.5rem;
    height: 3rem;
@@ -78,8 +76,8 @@ nav ul li:hover{
     height:3rem;
     background: none;
     position: absolute;
-    top:0;
-    left:500px;
+    top:1.7rem;
+    left:520px;
     border-radius: 0.5rem;
     transition: all .5s ease;
     cursor: pointer;
@@ -100,12 +98,12 @@ nav ul li:hover{
     left: 22rem;
   }
   b{
- display:block;
- width:2rem;
- height:0.3rem;
- background: yellow;
- margin: 0.4rem;
-  border-radius:1rem;
+    display:block;
+    width:2rem;
+    height:0.3rem;
+    background: yellow;
+    margin: 0.4rem;
+    border-radius:1rem;
 }
     p:after{
       width:6.25rem;
